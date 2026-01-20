@@ -6,19 +6,22 @@ import Home from './pages/home';
 import Projects from './pages/projects';
 import Studies from './pages/studies';
 import Experience from './pages/experience';
+import React from 'react';
 
 function App() {
 
   return (
     <>
-      <Routes>
-        <Route element={<Layout />}>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/Studies" element={<Studies />} />
-          <Route path="/Experience" element={<Experience />} />
-        </Route>
-      </Routes>
+      <React.StrictMode>
+        <Routes>
+          <Route element={<Layout />}>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/Studies" element={<Studies />} />
+            <Route path="/Experience" element={<Experience />} />
+          </Route>
+        </Routes>
+      </React.StrictMode>
     </>
   )
 }

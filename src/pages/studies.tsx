@@ -1,3 +1,5 @@
+import studyIcon from '../assets/study_icon.svg';
+
 function Studies() {
 
     return (
@@ -8,7 +10,7 @@ function Studies() {
                 </h1>
                 <div className='flex border-2 border-red-900 rounded-md p-4 gap-4 bg-gray-800 slide-in-left'>
                     <div>
-                        <img src="/study_icon.svg" className="h-[300px] rounded-sm" alt="Orthodox Cross" />
+                        <img src={studyIcon} className="h-[300px] rounded-sm" alt="Orthodox Cross" />
                     </div>
                     <div className="flex justify-items-center items-center">
                         <p className='text-2xl text-justify'>
