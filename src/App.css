@@ -50,7 +50,7 @@ body {
 }
 
 .slide-in-right {
-  animation: slideInRight 1.0s ease-out forwards;
+  animation: slideInRight 1s ease-out forwards;
 }
 
 @keyframes slideInRight {
