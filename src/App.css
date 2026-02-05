@@ -49,8 +49,23 @@ body {
   color: #888;
 }
 
+.slide-in-right {
+  animation: slideInRight 1.0s ease-out forwards;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 .slide-in-left {
-  animation: slideInLeft 1.0s ease-out forwards;
+  animation: slideInLeft 0.7s ease-out forwards;
 }
 
 @keyframes slideInLeft {
@@ -64,13 +79,58 @@ body {
   }
 }
 
-.slide-in-right {
-  animation: slideInRight 1.4s ease-out forwards;
+.slide-in-left2 {
+  animation: slideInLeft2 1.4s ease-out forwards;
 }
 
-@keyframes slideInRight {
+@keyframes slideInLeft2 {
   from {
-    transform: translateX(200px);
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-left3 {
+  animation: slideInLeft3 2.1s ease-out forwards;
+}
+
+@keyframes slideInLeft3 {
+  from {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-left4 {
+  animation: slideInLeft4 2.8s ease-out forwards;
+}
+
+@keyframes slideInLeft4 {
+  from {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-left5 {
+  animation: slideInLeft5 3.5s ease-out forwards;
+}
+
+@keyframes slideInLeft5 {
+  from {
+    transform: translateX(-200px);
     opacity: 0;
   }
   to {
@@ -118,4 +178,36 @@ body {
 
 .card:hover .card-overlay {
   opacity: 1;
+}
+
+.background-skin-color {
+  background-color: #f7ddbe;
+}
+
+.background-b37d7d-color{
+  background-color: #b37d7d
+}
+
+.color-b37d7d {
+  color: #b37d7d;
+}
+
+.color-skin {
+  color: #f7ddbe;
+}
+
+.color-black {
+  color: #000000;
+}
+
+.color-black:hover {
+  color: #000000;
+}
+
+.background-pinkish-color-hover {
+  transition: background-color 0.8s ease-out;
+}
+
+.background-pinkish-color-hover:hover {
+  background-color: #e4d3be;
 }
