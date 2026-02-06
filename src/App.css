@@ -239,3 +239,19 @@ body {
     transform: translateY(0);
   }
 }
+
+.expand {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  overflow: hidden;
+  transition:
+    max-height 1.4s ease,
+    padding 0.4s ease;
+}
+
+.expand.show {
+  max-height: 500px;
+  padding-top: 20px; 
+  padding-bottom: 20px;
+}

@@ -21,11 +21,11 @@ function Home() {
                         </h1>
                     </div>
                     <div className='rounded-md p-4 background-b37d7d-color slide-in-left card'>
-                        <div className='flex items-center gap-3 card-content pr-14'>
+                        <div className='xl:flex items-center gap-3 card-content xl:pr-14'>
                             <div>
-                                <img src={orthodoxCross} className="w-[900px] rounded-sm" alt="Orthodox Cross" />
+                                <img src={orthodoxCross} className="w-[200px] xl:w-[900px] rounded-sm mx-auto my-3" alt="Orthodox Cross" />
                             </div>
-                            <p className='text-4xl text-justify color-black font-medium mr-12'>
+                            <p className='text-xl md:text-2xl lg:text-3xl xl:text-4xl md:text-justify color-black font-medium xl:mr-12'>
                                 I am a Christian who confesses the Orthodox faith.
                                 <br />
                                 I'm an Information Systems Engineer and was born in
@@ -34,16 +34,18 @@ function Home() {
                                 some Greek (Beginner).
                             </p>
                             <div>
-                                <img src={fotoPerfil} className="w-[860px] rounded-sm" alt="Profile Photo" />
+                                <img src={fotoPerfil} className="w-[200px] xl:w-[860px] rounded-sm mx-auto my-3" alt="Profile Photo" />
                             </div>
                         </div>
-                        <a href="https://drive.google.com/file/d/1lTAeS0twYl5lMHWXfc_wPFGdLNZpxLIe/view?usp=drive_link" target="_blank"
-                        className="underline card-overlay">
-                        CV
-                        </a>
+                        <div className="card-overlay flex py-auto justify-around items-center">
+                            <a href="https://drive.google.com/file/d/1lTAeS0twYl5lMHWXfc_wPFGdLNZpxLIe/view?usp=drive_link" target="_blank"
+                            className="w-[40%] h-[20%] flex items-center justify-center background-pinkish-color-hover color-black font-bold">
+                            CV
+                            </a>
+                        </div>
                     </div>
 
-                    <div className="grid grid-cols-4 gap-10 my-10">
+                    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 my-10">
                         <AbilityCard name='Technical' skills = {technicalSkills} />
                         <AbilityCard name="Front-End" skills = {frontEndSkills} />
                         <AbilityCard name="Back-End" skills = {backEndSkills} />
