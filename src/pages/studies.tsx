@@ -5,7 +5,7 @@ function Studies() {
     return (
         <>
             <section className="overflow-x-hidden">
-                <div className="m-15">
+                <div className="">
                     <h1 className='flex mb-5 slide-in-right color-b37d7d font-bold'>
                         Studies
                     </h1>
@@ -14,7 +14,7 @@ function Studies() {
                             <img src={studyIcon} className="h-[300px] rounded-sm" alt="Orthodox Cross" />
                         </div>
                         <div className="flex justify-items-center items-center">
-                            <p className='text-2xl text-justify color-black font-medium'>
+                            <p className='text-4xl text-justify color-black font-medium'>
                                 Graduated as an Information Systems Engineer from the National University of the South, 
                                 Bahía Blanca - Argentina,
                                 2017 - 2025. 

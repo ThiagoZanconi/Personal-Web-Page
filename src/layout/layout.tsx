@@ -3,8 +3,8 @@ import { Link, Outlet } from "react-router-dom"
 export default function Layout() {
   return (
     <>
-        <nav className="w-full h-[160px] background-skin-color flex justify-items-center items-center">
-            <div className="w-full flex mx-[10%] gap-6">
+        <nav className="h-[210px] background-skin-color flex items-center">
+            <div className="flex mx-[10%] gap-6">
                 <Link to="/" className="px-3 py-3 text-4xl color-black background-pinkish-color-hover">
                     Home
                 </Link>
@@ -19,7 +19,7 @@ export default function Layout() {
                 </Link>
             </div>
         </nav>
-        <main className="w-full m-5 max-w-7xl mx-auto">
+        <main className="mt-10 mx-20">
             <Outlet />
         </main>
     </>
