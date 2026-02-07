@@ -4,19 +4,19 @@ function Projects() {
 
     const werewolfGameDescription = [ 
         `• Developed an android social game with good use of design and architectural patterns (MVC) and an attractive interface.`,
-        `• Tools Used: Kotlin, XML, Android Studio. `]
+        `• Tools Used: Kotlin, XML, Android Studio `]
 
     const ecommerceWebsiteDescription = [
         `• Co-Developed a full-stack online shopping web application specialized in hardware components. Implemented a
         responsive, user-friendly interface for customers and implemented checkout with MercadoPago integration. 
         Provided administrators with a dedicated interface for product additions, deletions, and modifications.`,
-        `• Tools Used: NextJS, TypeScript, React, TailwindCSS, HTML, PostreSQL, ExpressJS, MercadoPago API.`]
+        `• Tools Used: NextJS, TypeScript, React, TailwindCSS, HTML, PostreSQL, ExpressJS, MercadoPago API`]
     
     const imageEditorDescription = [
         `• Co-Developed an image editor for image generation and
         modification, assisted by AI, with an algorithmic module for
         basic image editor implementations. `,
-        `• Tools Used: Python, NextJS, TypeScript, React, TailwindCSS, HTML, FastAPI.`]
+        `• Tools Used: Python, NextJS, TypeScript, React, TailwindCSS, HTML, FastAPI`]
 
     const bibleWebAppDescription = [
         `• Developed a full-stack web application for reading the Bible. 
@@ -33,7 +33,7 @@ function Projects() {
     const personalWebPageDescription = [
         `• Developed a personal web page to showcase my projects and skills. It has smooth animations, with a responsive design 
         and an attractive interface.`,
-        `• Tools Used: React, TypeScript, CSS, TailwindCSS, HTML.`]
+        `• Tools Used: React, TypeScript, CSS, TailwindCSS, HTML`]
 
     return (
         <>
@@ -59,7 +59,6 @@ function Projects() {
 
                     <ProjectCard name="Personal Web Page" link="https://github.com/ThiagoZanconi/Personal-Web-Page" 
                     link_name="Github Repository" description={personalWebPageDescription} slide_class="slide-in-left6" />
-                    
                 </div>
             </section>
         </>

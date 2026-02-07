@@ -5,13 +5,16 @@ import AbilityCard from '../components/ability_card'
 function Home() {
     let technicalSkills = ["Clean Code","Data Structures", "SOLID", "Design Patterns", "Arquitectural Patterns", "JSON",
         "Agile Methodologies", "Git"]
+
     let frontEndSkills = ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Bootstrap", "Vite", "XML",
-        "Blazor"
-    ]
+        "Blazor"]
+        
     let backEndSkills = [".Net", "Node.js", "Express.js", "Django", "REST APIs","SQL", 
         "PostgreSQL", "MySQL", "Phyton", "C#", "C", "Java", "Kotlin"]
+
     let generalSkills = ["Problem Solving", "Teamwork", "Communication", "Adaptability", "Time Management", "Creativity", 
         "Collaboration", "Continuous Learning"]
+        
     return (
         <>
             <div className="overflow-x-hidden">
@@ -25,14 +28,16 @@ function Home() {
                             <div>
                                 <img src={orthodoxCross} className="w-[200px] xl:w-[900px] rounded-sm mx-auto my-3" alt="Orthodox Cross" />
                             </div>
-                            <p className='text-xl md:text-2xl lg:text-3xl xl:text-4xl md:text-justify color-black font-medium xl:mr-12'>
-                                I am a Christian who confesses the Orthodox faith.
-                                <br />
-                                I'm an Information Systems Engineer and was born in
-                                Bahía Blanca, Argentina on August 4th 1998. I'm also a full-stack developer with a vast experience in 
-                                different technologies and programming languages. I speak Spanish (Native), English (Fluent) and 
-                                some Greek (Beginner).
+                            <p className="text-xl md:text-2xl lg:text-3xl text-black font-serif font-semibold xl:mr-12 leading-snug text-left">
+                                Christian, Eastern Orthodox by faith.
+                                <br /><br />
+                                Information Systems Engineer from Bahía Blanca, Argentina.
+                                Full-stack developer with experience in a wide range of technologies 
+                                and programming languages.
+                                <br /><br />
+                                Languages: Spanish (native), English (fluent), Greek (basic).
                             </p>
+
                             <div>
                                 <img src={fotoPerfil} className="w-[200px] xl:w-[860px] rounded-sm mx-auto my-3" alt="Profile Photo" />
                             </div>

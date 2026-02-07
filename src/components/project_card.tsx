@@ -20,7 +20,7 @@ function ProjectCard({ name, link, link_name, description, slide_class }: Projec
         <>
             <div className={`flex rounded-md p-4 gap-4 background-b37d7d-color ${slide_class} card mb-3`}>
                 <div className="card-content">
-                    <p className="text-3xl text-justify color-black font-medium">
+                    <p className="text-3xl color-black font-medium">
                         {name}
                     </p>
                 </div>
@@ -31,7 +31,7 @@ function ProjectCard({ name, link, link_name, description, slide_class }: Projec
                         Description
                     </a>
                     <a href={link} target="_blank" 
-                    className="w-full h-full flex items-center justify-center background-pinkish-color-hover color-black font-bold text-center">
+                    className="w-full h-full flex items-center justify-center background-pinkish-color-hover color-black font-bold text-center px-2">
                         {link_name}
                     </a>
                 </div>
@@ -40,7 +40,7 @@ function ProjectCard({ name, link, link_name, description, slide_class }: Projec
                     <div className="overflow-y-hidden">
                         <div className={`px-10 mb-3 background-skin-color expand ${showDescription ? "show" : ""}`}>
                             {description.map((desc, _) => (
-                                <p className="text-xl md:text-justify color-black font-medium"> 
+                                <p className="text-xl sm:text-justify color-black font-medium"> 
                                     {desc}
                                     <br></br>
                                 </p>
