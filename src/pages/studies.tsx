@@ -14,7 +14,7 @@ function Studies() {
                             <img src={studyIcon} className="mx-auto h-[200px] lg:h-[300px] rounded-sm" alt="Orthodox Cross" />
                         </div>
                         <div className="flex justify-items-center items-center">
-                            <p className='sm:text-xl md:text-2xl lg:text-4xl md:text-justify color-black font-medium'>
+                            <p className='sm:text-xl md:text-2xl lg:text-4xl color-black font-semibold leading-snug text-left'>
                                 Graduated as an Information Systems Engineer from the National University of the South, 
                                 Bahía Blanca - Argentina,
                                 2017 - 2025. 
